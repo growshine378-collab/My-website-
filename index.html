@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>وكالة نمو | موقع احترافي</title>
+  <meta name="description" content="وكالة نمو تقدّم حلول تسويقية ذكية لتحقيق نتائج ملموسة لعملك." />
+
+  <!-- SEO / Open Graph -->
+  <meta property="og:title" content="وكالة نمو | حلول تسويق ونمو" />
+  <meta property="og:description" content="موقع احترافي سريع ومتجاوب." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ar_AR" />
+  <link rel="icon" href="assets/favicon.png" />
+
+  <!-- Fonts (اختياري: يمكن إزالة لتسريع التحميل) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="التنقّل الرئيسي">
+      <a class="brand" href="#" aria-label="الصفحة الرئيسية">
+        <img src="assets/logo.svg" alt="" class="brand__logo" />
+        <span class="brand__text">وكالة نمو</span>
+      </a>
+
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="فتح القائمة">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#services">الخدمات</a></li>
+        <li><a href="#work">أعمالنا</a></li>
+        <li><a href="#pricing">الأسعار</a></li>
+        <li><a href="#about">من نحن</a></li>
+        <li><a class="btn btn--sm" href="#contact">تواصل معنا</a></li>
+        <li>
+          <button id="themeToggle" class="icon-btn" aria-label="تبديل الوضع">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <path d="M21.64 13A9 9 0 1111 2.36 7 7 0 0021.64 13z"/>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main id="main">
+    <section class="hero section">
+      <div class="container grid grid--2">
+        <div class="hero__text">
+          <h1>نمّي عملك بنتائج حقيقية</h1>
+          <p class="lead">
+            استراتيجيات نمو مدروسة، إعلانات مدفوعة دقيقة، وتحليلات واضحة تزيد مبيعاتك بسرعة وثبات.
+          </p>
+          <div class="actions">
+            <a href="#contact" class="btn btn--primary">احجز جلسة مجانية</a>
+            <a href="#work" class="btn btn--ghost">شاهد النتائج</a>
+          </div>
+          <ul class="trust">
+            <li>⏱️ تسليم سريع</li>
+            <li>📈 تقارير شفافة</li>
+            <li>🤝 دعم مستمر</li>
+          </ul>
+        </div>
+        <div class="hero__media">
+          <figure class="card card--glass">
+            <img src="assets/hero-illustration.webp" alt="لوحة تحكم تسويق تعرض نمو المبيعات" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <header class="section__head">
+          <h2>ماذا نقدم؟</h2>
+          <p>حزمة خدمات كاملة لتحقيق نمو قابل للقياس.</p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="card service reveal">
+            <h3>إعلانات مدفوعة</h3>
+            <p>إدارة حملات فيسبوك، إنستغرام، جوجل، وتيك توك بتحسين مستمر.</p>
+            <ul class="list">
+              <li>أبحاث جماهير دقيقة</li>
+              <li>اختبارات A/B</li>
+              <li>لوحات متابعة لحظية</li>
+            </ul>
+          </article>
+
+          <article class="card service reveal">
+            <h3>تحسين التحويل</h3>
+            <p>تحسين صفحات الهبوط ومسارات الشراء لزيادة المبيعات.</p>
+            <ul class="list">
+              <li>خرائط حرارة وسلوك المستخدم</li>
+              <li>نسخ إعلانية مقنعة</li>
+              <li>سرعة وأداء عاليان</li>
+            </ul>
+          </article>
+
+          <article class="card service reveal">
+            <h3>تحليلات متقدمة</h3>
+            <p>قياس عائد الإنفاق الإعلاني وKPIs بوضوح وشفافية.</p>
+            <ul class="list">
+              <li>تتبّع أحداث دقيق</li>
+              <li>تقارير أسبوعية</li>
+              <li>توصيات عملية</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work / Portfolio -->
+    <section id="work" class="section section--alt">
+      <div class="container">
+        <header class="section__head">
+          <h2>نتائج مختارة</h2>
+          <p>دراسات حالة مختصرة توضّح منهجنا.</p>
+        </header>
+
+        <div class="grid grid--3">
+          <figure class="card reveal">
+            <img src="assets/case1.webp" alt="زيادة مبيعات متجر إلكتروني" loading="lazy">
+            <figcaption>
+              <strong>+240% ROAS</strong> خلال 60 يوم لمتجر أزياء.
+            </figcaption>
+          </figure>
+
+          <figure class="card reveal">
+            <img src="assets/case2.webp" alt="انخفاض تكلفة الاكتساب" loading="lazy">
+            <figcaption>
+              <strong>-38% CPA</strong> مع تحسين صفحة الهبوط.
+            </figcaption>
+          </figure>
+
+          <figure class="card reveal">
+            <img src="assets/case3.webp" alt="زيادة الاشتراكات" loading="lazy">
+            <figcaption>
+              <strong>+4.6x</strong> اشتراكات SaaS بحملات تجديد.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <header class="section__head">
+          <h2>الباقات والأسعار</h2>
+          <p>اختر ما يناسب مراحل نموّك.</p>
+        </header>
+
+        <div class="grid grid--3 cards-equal">
+          <article class="card price reveal" aria-label="باقة الانطلاق">
+            <h3>الانطلاق</h3>
+            <p class="price__value"><span>249</span>$/شهر</p>
+            <ul class="list">
+              <li>إدارة قناة إعلانية واحدة</li>
+              <li>تقارير شهرية</li>
+              <li>1 جلسة إستراتيجية</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">ابدأ الآن</a>
+          </article>
+
+          <article class="card price price--featured reveal" aria-label="باقة النمو">
+            <div class="badge">الأكثر طلبًا</div>
+            <h3>النمو</h3>
+            <p class="price__value"><span>599</span>$/شهر</p>
+            <ul class="list">
+              <li>حتى 3 قنوات إعلانية</li>
+              <li>تقارير أسبوعية</li>
+              <li>تحسين التحويل</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">احجز استشارة</a>
+          </article>
+
+          <article class="card price reveal" aria-label="باقة الشركات">
+            <h3>الشركات</h3>
+            <p class="price__value"><span>مخصّص</span></p>
+            <ul class="list">
+              <li>استراتيجية شاملة</li>
+              <li>لوحات تحكم مخصصة</li>
+              <li>فريق مكرّس</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost">احصل على عرض</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section--alt">
+      <div class="container grid grid--2">
+        <div>
+          <h2>من نحن</h2>
+          <p>
+            فريق تسويق ونمو يساعد الشركات على تحقيق نتائج قابلة للقياس عبر مزيج من الإبداع والبيانات.
+          </p>
+          <ul class="list">
+            <li>خبرة متعددة الصناعات</li>
+            <li>منهج اختبار مستمر</li>
+            <li>شراكة طويلة المدى</li>
+          </ul>
+        </div>
+        <div>
+          <div class="stats">
+            <div class="stat"><span>120+</span> عميلًا</div>
+            <div class="stat"><span>8</span> بلدان</div>
+            <div class="stat"><span>4.9/5</span> متوسط رضا</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section">
+      <div class="container">
+        <header class="section__head">
+          <h2>شهادات عملائنا</h2>
+        </header>
+        <div class="grid grid--3">
+          <blockquote class="card quote reveal">
+            <p>نتائج ملموسة وسرعة في التنفيذ. فريق موثوق!</p>
+            <cite>— متجر أناقة</cite>
+          </blockquote>
+          <blockquote class="card quote reveal">
+            <p>خفضوا تكلفة الاكتساب وزادوا المبيعات خلال أسابيع.</p>
+            <cite>— تطبيق خدمات</cite>
+          </blockquote>
+          <blockquote class="card quote reveal">
+            <p>أحببنا شفافية التقارير والاقتراحات العملية.</p>
+            <cite>— شركة تقنية</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--accent">
+      <div class="container">
+        <header class="section__head">
+          <h2>تواصل معنا</h2>
+          <p>أرسل طلبك وسنرد خلال 24 ساعة.</p>
+        </header>
+
+        <form class="form card" id="contactForm" novalidate>
+          <div class="form__row">
+            <label for="name">الاسم</label>
+            <input id="name" name="name" type="text" required placeholder="اسمك الكامل" />
+            <small class="error" aria-live="polite"></small>
+          </div>
+
+          <div class="form__row">
+            <label for="email">البريد</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com" />
+            <small class="error" aria-live="polite"></small>
+          </div>
+
+          <div class="form__row">
+            <label for="message">رسالتك</label>
+            <textarea id="message" name="message" rows="5" required placeholder="عرّفنا على مشروعك"></textarea>
+            <small class="error" aria-live="polite"></small>
+          </div>
+
+          <button class="btn btn--primary" type="submit">إرسال</button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#">
+          <img src="assets/logo.svg" alt="" class="brand__logo" />
+          <span class="brand__text">وكالة نمو</span>
+        </a>
+        <p class="muted">© <span id="year"></span> جميع الحقوق محفوظة.</p>
+      </div>
+      <nav aria-label="روابط سريعة">
+        <ul class="footer-links">
+          <li><a href="#services">الخدمات</a></li>
+          <li><a href="#work">الأعمال</a></li>
+          <li><a href="#pricing">الأسعار</a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#contact">تواصل</a></li>
+        </ul>
+      </nav>
+    </div>
+    <button class="to-top" aria-label="إلى الأعلى">↑</button>
+  </footer>
+</body>
+</html>
